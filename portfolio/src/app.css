@@ -1,0 +1,37 @@
+.footer {
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.cards {
+    width: 28%;
+    margin-bottom: 5px;
+
+
+}
+
+.cards img {
+    width: 100%;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.projectContainer h1 {
+    width: 100%
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
