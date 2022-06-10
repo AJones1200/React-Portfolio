@@ -5,7 +5,7 @@ import WA from '../../images/WA Screenshot.jpg'
 import DP from '../../images/DP Screenshot.jpg'
 import TenBud from '../../images/TenBud Screenshot.jpg'
 import TechBlog from '../../images/TechBlog.png'
-import Portfolio from '../../images/Portfolio.png'
+import Portfolio from '../../images/CookBook.png'
 export default function Projects() {
   const projects = [
     {title: "QuotePics", 
@@ -17,7 +17,7 @@ export default function Projects() {
     {title: "DailyPlanner", githubLink: "https://github.com/AJones1200/Homework05", deployedLink: "https://ajones1200.github.io/Homework05/", image: DP, description: "App that gives the user an hourly daily planner."},
     {title: "TennantBuddy", githubLink: "https://github.com/Dog-with-two-Gs/tenant-buddy", deployedLink: "https://tenant-buddy.herokuapp.com/", image: TenBud, description: "App that gives tenants of a building the ability to reserve laundry machines."},
     {title: "TechBlog", githubLink: "https://github.com/AJones1200/Homework14", deployedLink: "https://serene-sierra-12890.herokuapp.com/", image: TechBlog, description: "App that allows users to post and comment on others' posts."},
-    {title: "Portfolio", githubLink: "https://github.com/AJones1200/Homework02", deployedLink: "https://ajones1200.github.io/Homework02/", image:  Portfolio , description: "App which shows my favorite projects."}
+    {title: "CookBook", githubLink: "https://github.com/orgs/Cocineros/repositories", deployedLink: "https://bumbu-recipe-book.herokuapp.com/", image:  Portfolio , description: "App which shows my favorite projects."}
   ]
   return (
     <div className='projectContainer'>
